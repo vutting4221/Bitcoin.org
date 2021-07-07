@@ -14,7 +14,7 @@ ruby '2.5.8'
 ## your dependencies, then nothing extra needs to be done
 group :development do
   gem 'ffi-icu'
-  gem 'jekyll', '~>4.0'
+  gem 'jekyll', '~> 4.0', '>= 4.0.1'
   gem 'json', '>= 1.9'
   gem 'less', '2.4.0'
   gem 'kramdown', '~>2.3'
@@ -22,7 +22,7 @@ group :development do
   gem 'therubyracer' # required by less
   gem 'jshintrb', '~>0.3.0'
   gem 'safe_yaml'
-  gem 'json-schema'
+  gem 'json-schema', '>= 2.8.1'
 end
 
 ## Not used on build server. Only used by developers and Travis CI, so
